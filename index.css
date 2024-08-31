@@ -1,85 +1,105 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-image: url(reflection-3239899_1280.jpg);
-    background-size: cover;
-    background-position: center;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  background-image: url();
+  background-position:center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
 
-  @font-face {
-    font-family: myFont;
-    src: url(The\ Billion.ttf);
-  }
+ /* @font-face {
+  font-family: myFont;
+  src: url(url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'););
+ } */
 
-  header {
-    background-color:transparents;
-    color: white;
-    text-align: center;
-    padding: 1px 0;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    background-color: #333;
-  }
-  
-  nav ul li {
-    display:inline;
-    margin: auto;
-    max-width: 80px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-  }
-  
-  nav ul li a:hover {
-    background-color:#df096d;
-    color: white;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  h2{
-    color:rgb(32, 216, 78);
-    font-family: myFont;
-    font-size: xx-large;
-  }
+header {
+  background-color:transparents;
+  color: white;
+  text-align: center;
+  padding: 1px 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  background-color: #333;
+}
 
-  h3{
-    font-size: large;
-  }
+nav ul li {
+  display:inline;
+  margin: auto;
+  max-width: 80px;
+}
 
-  a{
-    color: #df096d;
-    text-decoration: none;
-  }
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+}
 
-  #intro, #featured-projects {
-    margin-bottom: 20px;
-    color: #ddd;
-    font-size: large;
-  }
-  
-  .project {
-    padding: 10px;
-    margin-bottom: 10px;
-    color: #ddd;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 2px 0;
-    position: relative;
-  }
-  
+nav ul li a:hover {
+  background-color:#df096d;
+  color: white;
+  border-radius: 10px;
+  transition-delay: 0.1s;
+}
+
+main {
+  padding: 20px;
+}
+
+h2{
+  color:rgb(32, 216, 78);
+  font-size: x-large;
+}
+
+h3{
+  font-size: medium;
+}
+.project p{
+  font-size: 15px;
+  text-align: justify;
+  color:white;
+  text-align: justify;
+  font-size: 20px;
+}
+.project h2{
+  font-size: 20px;
+}
+
+a{
+  color: #df096d;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  color: rgb(32, 216, 78);
+}
+
+#intro, #featured-projects {
+  padding-block-end: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.project {
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+footer {
+  height: 0px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2px 0;
+  position: relative;
+}
